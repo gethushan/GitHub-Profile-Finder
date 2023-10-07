@@ -1,3 +1,13 @@
+body{
+    background-color: #fafbfc;
+}
+a{
+    text-decoration: none;
+    color: #24292e;
+    :hover{
+        text-decoration: underline;
+    }
+}
 .form-control{
     
     padding: 5px 12px;
@@ -52,12 +62,13 @@ button{
 }
 
 .profile-box{
-    background: #ff574a;
+    background: #c1d9f19a;
     text-align: center;
     padding: 40px 90px;
-    color: #fff;
+    color: #24292e;
     position: relative;
     border-radius: 20px;
+    border-color: #0366d6;
 }
 
 .pro-pic{

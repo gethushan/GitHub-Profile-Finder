@@ -16,7 +16,7 @@ form.addEventListener('submit',function(e) {
         document.getElementById("result").innerHTML = `
             <div class="profile-box">
                 <img class="pro-pic" src="${data.avatar_url}"/>
-                <h2>${data.name}</h2>
+                <h2><a target="_blank" href="${data.html_url}">${data.name}</a></h2>
                 <div class="follow-detail">
                     <h3>Followers: ${data.followers}</h3>
                     <h3>Following: ${data.following}</h3>
