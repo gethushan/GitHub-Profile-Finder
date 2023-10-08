@@ -8,19 +8,31 @@
 </head>
 <body>
     <div class="container">
-        <h1 style="text-align: center;">
-            GitHub Profile Finder
-        </h1>
-        <form id="myForm" autocomplete="off">
-            <div class="form-group">
-                <input type="text" class="form-control" id="search" placeholder="Search Username" required>
+        <div class="contain">
+            <div class="swi">
+                <label class="switch">
+                    <input type="checkbox" id="mode-toggle">
+                    <span class="slider round"></span>
+                </label>
             </div>
-            <div class="form-group">
-                <button class="btn btn-danger btn-block">
-                    Search User
-                </button>
+            <div class="headl">
+                <h1 style="text-align: center;">
+                    GitHub Profile Finder
+                </h1>
             </div>
-        </form>
+            <div class="fora">
+                <form id="myForm" autocomplete="off">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="search" placeholder="Search Username" required>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-danger btn-block">
+                            Search User
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
         <div id="result"></div>
     </div>
 </body>

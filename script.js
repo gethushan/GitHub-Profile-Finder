@@ -1,5 +1,16 @@
 var form = document.getElementById("myForm")
+const modeToggle = document.getElementById("mode-toggle");
+const body = document.body;
 
+modeToggle.addEventListener("change", () => {
+    if (modeToggle.checked) {
+        body.classList.remove("light-mode");
+        body.classList.add("dark-mode");
+    } else {
+        body.classList.remove("dark-mode");
+        body.classList.add("light-mode");
+    }
+});
 
 form.addEventListener('submit',function(e) {
     e.preventDefault()
